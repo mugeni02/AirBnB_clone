@@ -1,6 +1,8 @@
 import sys
 
+
 def greet(name):
+
     """
     Greets a person by name.
 
@@ -11,7 +13,9 @@ def greet(name):
     """
     return f"Hello, {name}! Welcome to our world of beautiful code."
 
+
 if __name__ == "__main__":
+
     if len(sys.argv) != 2:
         print("Usage: python beautiful_code.py <your_name>")
         sys.exit(1)
